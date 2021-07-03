@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS | Post</title>
+    <base href="../../" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/common/general.css" />
+    <link rel="stylesheet" href="styles/common/navbar.css" />
+    <link rel="stylesheet" href="styles/blog-post.css" />
+  </head>
+  <body>
+    <nav>
+      <ul style="list-style-type: none" id="nav-links">
+        <li class="nav-item" id="nav-1">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-item" id="nav-2">
+          <a href="pages/resume.html">Resume</a>
+        </li>
+        <li class="nav-item" id="nav-3">
+          <a href="pages/projects.html">Projects</a>
+        </li>
+        <li class="nav-item" id="nav-4">
+          <a href="pages/blog-home.html">Blog</a>
+        </li>
+        <li class="nav-item" id="nav-5">
+          <a href="pages/contact-me.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="nav-logo">
+        <a href="#"> <span>Jason Starkey</span><span>.dev</span> </a>
+      </div>
+    </nav>
+
+    <main>
+      <div id="post-content">
+        <h1>Eloquent JS & OO Refresher</h1>
+        <small> Published on Tuesday, 1 June, 2021 </small>
+        <br />
+
+        <div id="actual-blog-post">
+          <p>Happy post memorial day!</p>
+          <p>I'm still learning...are you?</p>
+          <p>
+            I just finished chapter 6 of Eloquent Javascript by Majin Haverbeke. Really cool chapter, and likely the
+            densest yet. The chapter covered objects in considerable detail, diving into prototypes and how each object
+            derives properties from the original object, Object.prototye. Additionally, I learned a good amount about
+            classes in JS, and how you can use keywords such as set, get, static, etc. as shorthand for getters &
+            setters & static methods. Also, how Classes are really just a sham! A wolf in syntactic sugar! No but
+            seriously they are esentially a wrapper for prototype assignments and object creation. Pretty neat.
+          </p>
+          <p>
+            The chapter also covers some key OO principles such as iterators, inheritance, encapsulation, and
+            interfaces. How to write them, how to work with them, why they are important, etc. I will say I did not know
+            that inheritance was a sort of controversial topic in OO programming. This is because it actually ties
+            objects together in a way, rather than keep them modular. The whole purpose of Object Oriented programming
+            is to keep data divided so that it is much simpler to work with. It allows for very complex and independent
+            systems that do not rely or impact one another. But unfortunately, code can easily become spaghetti code
+            when you start sharing exact memory locations or properties. Great read so far,
+            <a href="https://eloquentjavascript.net/" target="_blank">check it out!</a>
+          </p>
+
+          <p>Thanks for listening!</p>
+        </div>
+
+        <div id="nav-buttons">
+          <a href="pages/Blog-Updates/2021-05-28.html"><button class="nav-btns">&lt;&lt; Prev Post</button></a>
+          <a href="pages/Blog-Updates/2021-06-07.html"><button class="nav-btns">Next Post &gt;&gt;</button></a>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

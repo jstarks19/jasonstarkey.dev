@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS | Post</title>
+    <base href="../../" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/common/general.css" />
+    <link rel="stylesheet" href="styles/common/navbar.css" />
+    <link rel="stylesheet" href="styles/blog-post.css" />
+  </head>
+  <body>
+    <nav>
+      <ul style="list-style-type: none" id="nav-links">
+        <li class="nav-item" id="nav-1">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-item" id="nav-2">
+          <a href="pages/resume.html">Resume</a>
+        </li>
+        <li class="nav-item" id="nav-3">
+          <a href="pages/projects.html">Projects</a>
+        </li>
+        <li class="nav-item" id="nav-4">
+          <a href="pages/blog-home.html">Blog</a>
+        </li>
+        <li class="nav-item" id="nav-5">
+          <a href="pages/contact-me.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="nav-logo">
+        <a href="#"> <span>Jason Starkey</span><span>.dev</span> </a>
+      </div>
+    </nav>
+
+    <main>
+      <div id="post-content">
+        <h1>HTML: Day One</h1>
+        <small> Published on Monday, 7 June, 2021 </small>
+        <br />
+
+        <div id="actual-blog-post">
+          <p>What a surprising title .. I know</p>
+          <p>
+            So today I decided to reset my focus and go back to my Web Development roots (what roots?). But in all
+            seriousness, I figured jumping right into JavaScript and NodeJS was probably not the best route. However,
+            when learning something for the first time, you should always follow what most interests you. It will keep
+            you inspired and keep you engaged. So for me, as someone with a programming background, learning the ins and
+            outs of JavaScript as well as the server side runtime for it seemed like the most compelling first step.
+          </p>
+          <p>
+            So, at this point, I have successfully learned the basics of JS, NodeJS, NPM, Express, Mongoose (and some
+            MongoDB concepts). I figured out how to create a backend http server with express that supplied a frontend
+            with routes, that when accessed would query documents from my mongo database. These routes are seperated
+            into their own module and utilize the Router() method of the express module. It was a lot of fun learning
+            how to structure a web server api while simultaneously learning about async JavaScript and database
+            querying.
+          </p>
+          <p>
+            Now that I have accomplished that, it seems like a good idea to go back and thoroughly cover my frontend. I
+            know basic HTML and CSS and can make generally what I need with the two. But I do not understand either
+            technology nearly to the degree that a position as a Fullstack web developer would require. Further, with a
+            good fundamental understanding of the JavaScript language and async JS, I believe learning the DOM concepts
+            will be significantly easier. I know this is kind of a backward approach to web development, but it is
+            solely dictated by my motivation to learn. I like coding and backend programming alot, so I started with
+            Node. Now that I realize the backend is only as good as what can interface with it, I am motivated to
+            relearn (properly) my frontend web stack!!
+          </p>
+        </div>
+
+        <div id="nav-buttons">
+          <a href="pages/Blog-Updates/2021-06-01.html"><button class="nav-btns">&lt;&lt; Prev Post</button></a>
+          <a href="pages/Blog-Updates/2021-06-08.html"><button class="nav-btns">Next Post &gt;&gt;</button></a>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

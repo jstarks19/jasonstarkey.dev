@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS | Post</title>
+    <base href="../../" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/common/general.css" />
+    <link rel="stylesheet" href="styles/common/navbar.css" />
+    <link rel="stylesheet" href="styles/blog-post.css" />
+  </head>
+  <body>
+    <nav>
+      <ul style="list-style-type: none" id="nav-links">
+        <li class="nav-item" id="nav-1">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-item" id="nav-2">
+          <a href="pages/resume.html">Resume</a>
+        </li>
+        <li class="nav-item" id="nav-3">
+          <a href="pages/projects.html">Projects</a>
+        </li>
+        <li class="nav-item" id="nav-4">
+          <a href="pages/blog-home.html">Blog</a>
+        </li>
+        <li class="nav-item" id="nav-5">
+          <a href="pages/contact-me.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="nav-logo">
+        <a href="#"> <span>Jason Starkey</span><span>.dev</span> </a>
+      </div>
+    </nav>
+
+    <main>
+      <div id="post-content">
+        <h1>JS & the DOM</h1>
+        <small> Published on Monday, 21 June, 2021 </small>
+        <br />
+
+        <div id="actual-blog-post">
+          <p>Happy Monday!</p>
+          <p>
+            So it has been a little bit of time since my last post, just over a week. I was actually hoping to post this
+            one by Friday night, but alas sometimes it works out a little differently than we imagine.
+          </p>
+          <p>
+            On to the update. In the last week, I have made a concerted effort to relearn some of my fundamentals in
+            JavaScript and to finally learn the DOM! The DOM is absolutley incredibly in my opinion. I had no idea that
+            the underpinning of dynamic webpages was this object representation of HTML that is being manipulated behind
+            the scenes. Adding functionality to a webpage is as simple as adding an Event Listener. Seeing the pieces
+            fit together (JS, CSS, and HTML) really begins to get the gears turning.
+          </p>
+          <p>
+            After becoming familiar with the DOM and some of it's core priniciples/methods, I implemented a small
+            calculator. I included some animations, transitions, and transformations so as to get some more practice
+            with them. I have also begun using <a href="https://coolers.com">Coolers.com</a> as a resource for my
+            palettes! I usually can find nice color combinations, but it takes far too long. Coolers solves that issue,
+            use it!
+          </p>
+          <p>Thanks for Listening, see ya next week!</p>
+        </div>
+
+        <div id="nav-buttons">
+          <a href="pages/Blog-Updates/2021-06-11.html"><button class="nav-btns">&lt;&lt; Prev Post</button></a>
+          <a href=""><button class="nav-btns" disabled>Next Post &gt;&gt;</button></a>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS | Post</title>
+    <base href="../../" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/common/general.css" />
+    <link rel="stylesheet" href="styles/common/navbar.css" />
+    <link rel="stylesheet" href="styles/blog-post.css" />
+  </head>
+  <body>
+    <nav>
+      <ul style="list-style-type: none" id="nav-links">
+        <li class="nav-item" id="nav-1">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-item" id="nav-2">
+          <a href="pages/resume.html">Resume</a>
+        </li>
+        <li class="nav-item" id="nav-3">
+          <a href="pages/projects.html">Projects</a>
+        </li>
+        <li class="nav-item" id="nav-4">
+          <a href="pages/blog-home.html">Blog</a>
+        </li>
+        <li class="nav-item" id="nav-5">
+          <a href="pages/contact-me.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="nav-logo">
+        <a href="#"> <span>Jason Starkey</span><span>.dev</span> </a>
+      </div>
+    </nav>
+
+    <main>
+      <div id="post-content">
+        <h1>An Update</h1>
+        <small> Published on Friday, 28 May, 2021 </small>
+        <br />
+
+        <div id="actual-blog-post">
+          <p>
+            Hey! I know it has been a bit of time, about a month total since the last update. I apologize. Honestly, I
+            built the tech stack for this blog using some nice templating from flask, and it involved writing the
+            markdown you see here, setting up the templates, learning jinja syntax for multi category blogs (a lot of
+            guess and check work), and so on. I had it figured out pretty well initially, and wrote a script to take
+            care of migrating the site from that flask build to a static html/css site, and push my changes. However, I
+            think the complexity of the project at the time was just a little annoying to dive back into and I felt like
+            my time was better served learing how to improve that tech stack. Or at least learn more about alternatives
+            that were geared toward my interests. Python and in turn Flask are absolutley wonderful. The simplicity and
+            expressiveness are a welcomed change from someone who primarily wrote in C/C++ and Java during my time in
+            college. However, and maybe this is a mistake on my part, I just did not want to pursue learning more about
+            Python/Flask when I had an entire field to cover. Personally, it was, why waste time on Python and Flask
+            when I can learn JavaScript, react, and then Node/Express so that I could build the site exactly how I
+            wanted, while furthering my career goals (to become a Fullstack Web developer). Besides, I have already solo
+            developed large scale production code in Python. I need practice outside of my comfort zone. <br />
+            <br />
+            And so, for the last 25 days or so I have been teaching myself JavaScript, along with the fundamentals of
+            NodeJS. Luckily a degree in computer science helped significantly with the learning curve, and allowed me to
+            appreciate a lot of features of the JavaScript language that I might have never seen as notable. Things like
+            first order functions, async operations, interaction with the DOM, Node's module system, and so on. There is
+            so much to that language and it truly feels like 'the last language I will ever need to know'. Now,
+            obviously that isn't true, but that is certainly reflective of how much I am enjoying the learning process.
+            <br />
+            <br />
+            So for now, I will continue learning and hopefully I will be able to migrate this site away from github
+            pages and onto a Rpi, or maybe my server at home, who knows! I will try my best to keep updating this blog
+            with where I am in my journey, what I am finding interesting or difficult, and just fixing the look of it
+            altogether. I have a good eye for design but my CSS skills need to catch up to that. So in the meantime,
+            sorry, but we're livin in the 90s here.
+          </p>
+        </div>
+
+        <div id="nav-buttons">
+          <a href="pages/Blog-Updates/2021-05-03.html"><button class="nav-btns">&lt;&lt; Prev Post</button></a>
+          <a href="pages/Blog-Updates/2021-06-01.html"><button class="nav-btns">Next Post &gt;&gt;</button></a>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
